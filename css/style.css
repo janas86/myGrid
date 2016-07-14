@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.kuba-container {
+width: 100%;
+max-width: 1200px;
+border: 1px solid blue;
+}
+
+.kuba-row:before,
+.kuba-row:after {
+  content : " ";
+  display : table;
+  clear: both;
+  border: 1px solid red;
+}
+
+[class*='kuba-col-'] {
+  float: left;
+  min-height: 1px;
+  border: 1px solid green;
+}
