@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .kuba-container {
@@ -12,13 +13,13 @@ border: 1px solid blue;
 
 .kuba-row:before,
 .kuba-row:after {
-  content : " ";
-  display : table;
+  content: " ";
+  display: table;
   clear: both;
   border: 1px solid red;
 }
 
-[class*='kuba-col-'] {
+[class*='col-'] {
   float: left;
   min-height: 1px;
   width: 8.333%;
